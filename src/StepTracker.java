@@ -105,6 +105,14 @@ public class StepTracker {
         }
         System.out.println("За "+ month + " вы достигали цели " + maxDays + " дней подряд");
     }
+    public void getDaylySteps(String month) {
+        int average = 0;
+        int[] stepsArray = monthsCounter.get(month);
+        for (int i = 0; i < stepsArray.length; i++) {
+
+            System.out.print( (i+1) + " день:  " + stepsArray[i]+ " ");
+        }
+    }
 
 }
  

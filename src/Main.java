@@ -28,6 +28,7 @@ public class Main {
                 stepTracker.getAllDistance(month);
                 stepTracker.getAllCalories(month);
                 stepTracker.getBestSeries(month);
+                stepTracker.getDaylySteps(month);
                 printMenu();
             } else if (action == 3) {
                 System.out.println("Введите новую дневную цель");
